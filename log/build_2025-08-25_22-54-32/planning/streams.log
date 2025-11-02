@@ -1,0 +1,58 @@
+[0.224s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.237s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.427s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.463s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.466s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.473s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.658s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.724s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.745s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.852s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.878s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.937s] -- Found base_msgs: 0.0.0 (/home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/cmake)
+[1.028s] -- Configuring done (0.8s)
+[1.069s] -- Generating done (0.0s)
+[1.082s] -- Build files have been written to: /home/zhangxin/planning_with_ROS2_course/build/planning
+[1.111s] [ 10%] [32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o[0m
+[1.121s] [ 20%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[1.124s] [ 50%] Built target mathlibs
+[1.125s] [ 80%] Built target planning_node
+[3.584s] [ 90%] [32m[1mLinking CXX shared library libdecision_center.so[0m
+[3.690s] [ 90%] Built target decision_center
+[3.831s] [100%] [32m[1mLinking CXX shared library libconfig_reader.so[0m
+[3.935s] [100%] Built target config_reader
+[3.942s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/planning -- -j16 -l16
+[3.942s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --install /home/zhangxin/planning_with_ROS2_course/build/planning
+[3.944s] -- Install configuration: ""
+[3.944s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+[3.945s] -- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so" to ""
+[3.945s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+[3.945s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+[3.946s] -- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libdecision_center.so" to ""
+[3.946s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/planning_node
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/config
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/launch
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/obs_car
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/main_car
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/rviz
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[3.947s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+[3.947s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+[3.948s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+[3.948s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+[3.948s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+[3.948s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+[3.948s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+[3.948s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+[3.948s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+[3.948s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+[3.948s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+[3.948s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+[3.949s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.xml
+[3.950s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --install /home/zhangxin/planning_with_ROS2_course/build/planning

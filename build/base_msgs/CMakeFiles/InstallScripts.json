@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/zhangxin/planning_with_ROS2_course/build/base_msgs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

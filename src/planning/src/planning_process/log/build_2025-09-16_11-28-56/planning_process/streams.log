@@ -1,0 +1,19 @@
+[0.013s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/build/planning_process': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process -DCMAKE_INSTALL_PREFIX=/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/planning_process
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.331s] [31mCMake Error at CMakeLists.txt:28 (ament_target_dependencies):
+[0.331s]   Unknown CMake command "ament_target_dependencies".
+[0.332s] 
+[0.332s] [0m
+[0.332s] -- Configuring incomplete, errors occurred!
+[0.336s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/build/planning_process' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process -DCMAKE_INSTALL_PREFIX=/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/planning_process

@@ -1,0 +1,7 @@
+[0.010s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/src/planning/src/global_planner/build/global_planner': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/zhangxin/planning_with_ROS2_course/src/planning/src/global_planner -DCMAKE_INSTALL_PREFIX=/home/zhangxin/planning_with_ROS2_course/src/planning/src/global_planner/install/global_planner
+[0.019s] [31mCMake Error at CMakeLists.txt:37 (ament_target_dependencies):
+[0.019s]   Unknown CMake command "ament_target_dependencies".
+[0.019s] 
+[0.019s] [0m
+[0.019s] -- Configuring incomplete, errors occurred!
+[0.021s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/src/planning/src/global_planner/build/global_planner' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/zhangxin/planning_with_ROS2_course/src/planning/src/global_planner -DCMAKE_INSTALL_PREFIX=/home/zhangxin/planning_with_ROS2_course/src/planning/src/global_planner/install/global_planner

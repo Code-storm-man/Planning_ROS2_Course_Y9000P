@@ -1,0 +1,1 @@
+Invoking command in '/home/zhangxin/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/planning -- -j16 -l16

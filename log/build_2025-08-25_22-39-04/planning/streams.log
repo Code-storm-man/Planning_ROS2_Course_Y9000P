@@ -1,0 +1,37 @@
+[0.232s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.263s] [ 37%] Built target mathlibs
+[0.266s] [ 75%] Built target planning_node
+[0.269s] [ 87%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[3.067s] [100%] [32m[1mLinking CXX shared library libconfig_reader.so[0m
+[3.181s] [100%] Built target config_reader
+[3.186s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/planning -- -j16 -l16
+[3.187s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --install /home/zhangxin/planning_with_ROS2_course/build/planning
+[3.191s] -- Install configuration: ""
+[3.191s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+[3.191s] -- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so" to ""
+[3.192s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+[3.192s] -- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libmathlibs.so" to ""
+[3.193s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/planning_node
+[3.193s] -- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/planning_node" to ""
+[3.193s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/config
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/launch
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/obs_car
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/main_car
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/rviz
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+[3.194s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+[3.194s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+[3.194s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+[3.194s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+[3.195s] -- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+[3.195s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+[3.195s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+[3.195s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+[3.195s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.xml
+[3.197s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --install /home/zhangxin/planning_with_ROS2_course/build/planning

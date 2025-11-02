@@ -1,0 +1,3 @@
+[ 12%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[ 50%] Built target mathlibs
+[ 87%] Built target planning_node

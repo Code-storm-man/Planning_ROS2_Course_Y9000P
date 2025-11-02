@@ -1,0 +1,364 @@
+[0.000000] (-) TimerEvent: {}
+[0.001040] (base_msgs) JobQueued: {'identifier': 'base_msgs', 'dependencies': OrderedDict()}
+[0.001107] (data_plot) JobQueued: {'identifier': 'data_plot', 'dependencies': OrderedDict([('base_msgs', '/home/zhangxin/planning_with_ROS2_course/install/base_msgs')])}
+[0.001151] (planning) JobQueued: {'identifier': 'planning', 'dependencies': OrderedDict([('base_msgs', '/home/zhangxin/planning_with_ROS2_course/install/base_msgs')])}
+[0.001187] (base_msgs) JobStarted: {'identifier': 'base_msgs'}
+[0.008927] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'cmake'}
+[0.009971] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'build'}
+[0.010653] (base_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/zhangxin/planning_with_ROS2_course/build/base_msgs', '--', '-j16', '-l16'], 'cwd': '/home/zhangxin/planning_with_ROS2_course/build/base_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zhangxin'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhangxin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/zhangxin'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1678'), ('BUNDLED_DEBUGPY_PATH', '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/zhangxin/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zhangxin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhangxin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/zhangxin/planning_with_ROS2_course/install'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhangxin/miniconda3/bin:/home/zhangxin/miniconda3/condabin:/opt/ros/humble/bin:/home/zhangxin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ZX:@/tmp/.ICE-unix/1643,unix/ZX:/tmp/.ICE-unix/1643'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f22a4b90_11ee_44d5_88d3_213c8f4018bd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ddd370d6babbe112.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M9ONC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bd760dcdc4.sock'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zhangxin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('_CONDA_EXE', '/home/zhangxin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zhangxin/planning_with_ROS2_course/build/base_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zhangxin/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/zhangxin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/zhangxin/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.045321] (base_msgs) CommandEnded: {'returncode': 0}
+[0.046437] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'install'}
+[0.050407] (base_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/zhangxin/planning_with_ROS2_course/build/base_msgs'], 'cwd': '/home/zhangxin/planning_with_ROS2_course/build/base_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zhangxin'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhangxin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/zhangxin'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1678'), ('BUNDLED_DEBUGPY_PATH', '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/zhangxin/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zhangxin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhangxin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/zhangxin/planning_with_ROS2_course/install'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhangxin/miniconda3/bin:/home/zhangxin/miniconda3/condabin:/opt/ros/humble/bin:/home/zhangxin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ZX:@/tmp/.ICE-unix/1643,unix/ZX:/tmp/.ICE-unix/1643'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f22a4b90_11ee_44d5_88d3_213c8f4018bd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ddd370d6babbe112.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M9ONC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bd760dcdc4.sock'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zhangxin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('_CONDA_EXE', '/home/zhangxin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zhangxin/planning_with_ROS2_course/build/base_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zhangxin/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/zhangxin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/zhangxin/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.053374] (base_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.053703] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/ament_index/resource_index/package_run_dependencies/base_msgs\n'}
+[0.053800] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/ament_index/resource_index/parent_prefix_path/base_msgs\n'}
+[0.053939] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/environment/ament_prefix_path.sh\n'}
+[0.054009] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/environment/ament_prefix_path.dsv\n'}
+[0.054074] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/environment/path.sh\n'}
+[0.054171] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/environment/path.dsv\n'}
+[0.054237] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/local_setup.bash\n'}
+[0.054298] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/local_setup.sh\n'}
+[0.054359] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/local_setup.zsh\n'}
+[0.054420] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/local_setup.dsv\n'}
+[0.054512] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/package.dsv\n'}
+[0.054643] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/ament_index/resource_index/packages/base_msgs\n'}
+[0.054754] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/cmake/base_msgsConfig.cmake\n'}
+[0.054853] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/cmake/base_msgsConfig-version.cmake\n'}
+[0.054952] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/package.xml\n'}
+[0.055951] (base_msgs) CommandEnded: {'returncode': 0}
+[0.073376] (base_msgs) JobEnded: {'identifier': 'base_msgs', 'rc': 0}
+[0.074110] (data_plot) JobStarted: {'identifier': 'data_plot'}
+[0.079179] (planning) JobStarted: {'identifier': 'planning'}
+[0.099792] (-) TimerEvent: {}
+[0.200135] (-) TimerEvent: {}
+[0.300508] (-) TimerEvent: {}
+[0.313819] (planning) JobProgress: {'identifier': 'planning', 'progress': 'cmake'}
+[0.314587] (planning) JobProgress: {'identifier': 'planning', 'progress': 'build'}
+[0.315557] (planning) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/zhangxin/planning_with_ROS2_course/build/planning', '--', '-j16', '-l16'], 'cwd': '/home/zhangxin/planning_with_ROS2_course/build/planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zhangxin'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhangxin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/zhangxin'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1678'), ('BUNDLED_DEBUGPY_PATH', '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/zhangxin/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zhangxin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhangxin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/zhangxin/planning_with_ROS2_course/install'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhangxin/miniconda3/bin:/home/zhangxin/miniconda3/condabin:/opt/ros/humble/bin:/home/zhangxin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ZX:@/tmp/.ICE-unix/1643,unix/ZX:/tmp/.ICE-unix/1643'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f22a4b90_11ee_44d5_88d3_213c8f4018bd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ddd370d6babbe112.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M9ONC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bd760dcdc4.sock'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zhangxin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('_CONDA_EXE', '/home/zhangxin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zhangxin/planning_with_ROS2_course/build/planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zhangxin/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/zhangxin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/zhangxin/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.342760] (planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400611] (-) TimerEvent: {}
+[0.501056] (-) TimerEvent: {}
+[0.571154] (planning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.601204] (-) TimerEvent: {}
+[0.612663] (planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.616596] (planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.626146] (planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.640874] (planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.658511] (planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699395] (data_plot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/data_plot', 'build', '--build-base', '/home/zhangxin/planning_with_ROS2_course/build/data_plot/build', 'install', '--record', '/home/zhangxin/planning_with_ROS2_course/build/data_plot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zhangxin/planning_with_ROS2_course/src/data_plot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'HTTPS_PROXY': 'http://127.0.0.1:7897/', 'no_proxy': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1', 'LANGUAGE': 'zh_CN:en', 'USER': 'zhangxin', 'LC_TIME': 'en_US.UTF-8', 'all_proxy': 'socks://127.0.0.1:7897/', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zhangxin', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/zhangxin', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1678', 'BUNDLED_DEBUGPY_PATH': '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/zhangxin/miniconda3', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:7897/', 'COLCON_PREFIX_PATH': '/home/zhangxin/planning_with_ROS2_course/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'zhangxin', 'ALL_PROXY': 'socks://127.0.0.1:7897/', 'http_proxy': 'http://127.0.0.1:7897/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zhangxin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS2_PLANNING_COURSE_INSTALL': '/home/zhangxin/planning_with_ROS2_course/install', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/zhangxin/miniconda3/bin:/home/zhangxin/miniconda3/condabin:/opt/ros/humble/bin:/home/zhangxin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/ZX:@/tmp/.ICE-unix/1643,unix/ZX:/tmp/.ICE-unix/1643', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f22a4b90_11ee_44d5_88d3_213c8f4018bd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ddd370d6babbe112.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M9ONC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bd760dcdc4.sock', 'GNOME_TERMINAL_SERVICE': ':1.219', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/zhangxin/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'en_US.UTF-8', '_CONDA_EXE': '/home/zhangxin/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/zhangxin/planning_with_ROS2_course/build/data_plot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/zhangxin/miniconda3/bin/conda', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/zhangxin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zhangxin/planning_with_ROS2_course/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/python3.10/site-packages:/home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897/', 'LC_NUMERIC': 'en_US.UTF-8', 'CONDA_PREFIX': '/home/zhangxin/miniconda3', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning'}, 'shell': False}
+[0.701371] (-) TimerEvent: {}
+[0.707010] (planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.709167] (planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801544] (-) TimerEvent: {}
+[0.837113] (planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.892550] (data_plot) StdoutLine: {'line': b'running egg_info\n'}
+[0.894029] (data_plot) StdoutLine: {'line': b'writing ../../build/data_plot/data_plot.egg-info/PKG-INFO\n'}
+[0.894289] (data_plot) StdoutLine: {'line': b'writing dependency_links to ../../build/data_plot/data_plot.egg-info/dependency_links.txt\n'}
+[0.894617] (data_plot) StdoutLine: {'line': b'writing entry points to ../../build/data_plot/data_plot.egg-info/entry_points.txt\n'}
+[0.894795] (data_plot) StdoutLine: {'line': b'writing requirements to ../../build/data_plot/data_plot.egg-info/requires.txt\n'}
+[0.894911] (data_plot) StdoutLine: {'line': b'writing top-level names to ../../build/data_plot/data_plot.egg-info/top_level.txt\n'}
+[0.896157] (data_plot) StdoutLine: {'line': b"reading manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'\n"}
+[0.897025] (data_plot) StdoutLine: {'line': b"writing manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'\n"}
+[0.897205] (data_plot) StdoutLine: {'line': b'running build\n'}
+[0.897263] (data_plot) StdoutLine: {'line': b'running build_py\n'}
+[0.897395] (data_plot) StdoutLine: {'line': b'running install\n'}
+[0.897652] (data_plot) StdoutLine: {'line': b'running install_lib\n'}
+[0.898647] (data_plot) StdoutLine: {'line': b'running install_data\n'}
+[0.898834] (data_plot) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.900366] (data_plot) StdoutLine: {'line': b"removing '/home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.900755] (data_plot) StdoutLine: {'line': b'Copying ../../build/data_plot/data_plot.egg-info to /home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info\n'}
+[0.901674] (-) TimerEvent: {}
+[0.902055] (data_plot) StdoutLine: {'line': b'running install_scripts\n'}
+[0.912784] (planning) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.921416] (data_plot) StdoutLine: {'line': b'Installing data_plot script to /home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/data_plot\n'}
+[0.921858] (data_plot) StdoutLine: {'line': b"writing list of installed files to '/home/zhangxin/planning_with_ROS2_course/build/data_plot/install.log'\n"}
+[0.937880] (planning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.954609] (data_plot) CommandEnded: {'returncode': 0}
+[0.960503] (data_plot) JobEnded: {'identifier': 'data_plot', 'rc': 0}
+[1.001824] (-) TimerEvent: {}
+[1.059223] (planning) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.084117] (planning) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.101959] (-) TimerEvent: {}
+[1.140396] (planning) StdoutLine: {'line': b'-- Found base_msgs: 0.0.0 (/home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/cmake)\n'}
+[1.202127] (-) TimerEvent: {}
+[1.258409] (planning) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[1.302277] (-) TimerEvent: {}
+[1.352461] (planning) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.373929] (planning) StdoutLine: {'line': b'-- Build files have been written to: /home/zhangxin/planning_with_ROS2_course/build/planning\n'}
+[1.402410] (-) TimerEvent: {}
+[1.411417] (planning) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o\x1b[0m\n'}
+[1.418014] (planning) StdoutLine: {'line': b'[ 11%] Built target mathlibs\n'}
+[1.502565] (-) TimerEvent: {}
+[1.602948] (-) TimerEvent: {}
+[1.703309] (-) TimerEvent: {}
+[1.803674] (-) TimerEvent: {}
+[1.904020] (-) TimerEvent: {}
+[2.004380] (-) TimerEvent: {}
+[2.104753] (-) TimerEvent: {}
+[2.205121] (-) TimerEvent: {}
+[2.305489] (-) TimerEvent: {}
+[2.405856] (-) TimerEvent: {}
+[2.506206] (-) TimerEvent: {}
+[2.606564] (-) TimerEvent: {}
+[2.706930] (-) TimerEvent: {}
+[2.807283] (-) TimerEvent: {}
+[2.907650] (-) TimerEvent: {}
+[3.008017] (-) TimerEvent: {}
+[3.108381] (-) TimerEvent: {}
+[3.208762] (-) TimerEvent: {}
+[3.309081] (-) TimerEvent: {}
+[3.409416] (-) TimerEvent: {}
+[3.509797] (-) TimerEvent: {}
+[3.610136] (-) TimerEvent: {}
+[3.710450] (-) TimerEvent: {}
+[3.810841] (-) TimerEvent: {}
+[3.911195] (-) TimerEvent: {}
+[4.011554] (-) TimerEvent: {}
+[4.030541] (planning) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking CXX shared library libconfig_reader.so\x1b[0m\n'}
+[4.111738] (-) TimerEvent: {}
+[4.156997] (planning) StdoutLine: {'line': b'[ 14%] Built target config_reader\n'}
+[4.177164] (planning) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o\x1b[0m\n'}
+[4.181497] (planning) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o\x1b[0m\n'}
+[4.181743] (planning) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_creator_straight.cpp.o\x1b[0m\n'}
+[4.181862] (planning) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_creator_sturn.cpp.o\x1b[0m\n'}
+[4.181925] (planning) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o\x1b[0m\n'}
+[4.188306] (planning) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o\x1b[0m\n'}
+[4.189565] (planning) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o\x1b[0m\n'}
+[4.211856] (-) TimerEvent: {}
+[4.312210] (-) TimerEvent: {}
+[4.412579] (-) TimerEvent: {}
+[4.512966] (-) TimerEvent: {}
+[4.613372] (-) TimerEvent: {}
+[4.713894] (-) TimerEvent: {}
+[4.814368] (-) TimerEvent: {}
+[4.914889] (-) TimerEvent: {}
+[5.015387] (-) TimerEvent: {}
+[5.115860] (-) TimerEvent: {}
+[5.216393] (-) TimerEvent: {}
+[5.316919] (-) TimerEvent: {}
+[5.417382] (-) TimerEvent: {}
+[5.517889] (-) TimerEvent: {}
+[5.618349] (-) TimerEvent: {}
+[5.718856] (-) TimerEvent: {}
+[5.819309] (-) TimerEvent: {}
+[5.919791] (-) TimerEvent: {}
+[6.020251] (-) TimerEvent: {}
+[6.120773] (-) TimerEvent: {}
+[6.221248] (-) TimerEvent: {}
+[6.321722] (-) TimerEvent: {}
+[6.422163] (-) TimerEvent: {}
+[6.522620] (-) TimerEvent: {}
+[6.623051] (-) TimerEvent: {}
+[6.723512] (-) TimerEvent: {}
+[6.823933] (-) TimerEvent: {}
+[6.924505] (-) TimerEvent: {}
+[7.024974] (-) TimerEvent: {}
+[7.125459] (-) TimerEvent: {}
+[7.225987] (-) TimerEvent: {}
+[7.326516] (-) TimerEvent: {}
+[7.426987] (-) TimerEvent: {}
+[7.527534] (-) TimerEvent: {}
+[7.628015] (-) TimerEvent: {}
+[7.728560] (-) TimerEvent: {}
+[7.828995] (-) TimerEvent: {}
+[7.929427] (-) TimerEvent: {}
+[7.931915] (planning) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_info.so\x1b[0m\n'}
+[7.948902] (planning) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libglobal_planner.so\x1b[0m\n'}
+[7.964101] (planning) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libpnc_map_creator.a\x1b[0m\n'}
+[7.987329] (planning) StdoutLine: {'line': b'[ 42%] Built target pnc_map_creator\n'}
+[8.011559] (planning) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o\x1b[0m\n'}
+[8.029631] (-) TimerEvent: {}
+[8.086746] (planning) StdoutLine: {'line': b'[ 45%] Built target vehicle_info\n'}
+[8.097256] (planning) StdoutLine: {'line': b'[ 45%] Built target global_planner\n'}
+[8.109342] (planning) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o\x1b[0m\n'}
+[8.110295] (planning) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o\x1b[0m\n'}
+[8.110560] (planning) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object src/move_cmd/CMakeFiles/car_move_cmd.dir/car_move_cmd.cpp.o\x1b[0m\n'}
+[8.120501] (planning) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o\x1b[0m\n'}
+[8.129772] (-) TimerEvent: {}
+[8.230203] (-) TimerEvent: {}
+[8.330580] (-) TimerEvent: {}
+[8.430969] (-) TimerEvent: {}
+[8.531410] (-) TimerEvent: {}
+[8.631904] (-) TimerEvent: {}
+[8.732358] (-) TimerEvent: {}
+[8.832865] (-) TimerEvent: {}
+[8.885521] (planning) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libreference_line.so\x1b[0m\n'}
+[8.933064] (-) TimerEvent: {}
+[9.033584] (-) TimerEvent: {}
+[9.042714] (planning) StdoutLine: {'line': b'[ 60%] Built target reference_line\n'}
+[9.133743] (-) TimerEvent: {}
+[9.234191] (-) TimerEvent: {}
+[9.334610] (-) TimerEvent: {}
+[9.435036] (-) TimerEvent: {}
+[9.535450] (-) TimerEvent: {}
+[9.635914] (-) TimerEvent: {}
+[9.736355] (-) TimerEvent: {}
+[9.836809] (-) TimerEvent: {}
+[9.937242] (-) TimerEvent: {}
+[10.037692] (-) TimerEvent: {}
+[10.138118] (-) TimerEvent: {}
+[10.238589] (-) TimerEvent: {}
+[10.339005] (-) TimerEvent: {}
+[10.439444] (-) TimerEvent: {}
+[10.539882] (-) TimerEvent: {}
+[10.640311] (-) TimerEvent: {}
+[10.740780] (-) TimerEvent: {}
+[10.841219] (-) TimerEvent: {}
+[10.941659] (-) TimerEvent: {}
+[11.042098] (-) TimerEvent: {}
+[11.142552] (-) TimerEvent: {}
+[11.242974] (-) TimerEvent: {}
+[11.343413] (-) TimerEvent: {}
+[11.406250] (planning) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libdecision_center.so\x1b[0m\n'}
+[11.443586] (-) TimerEvent: {}
+[11.529332] (planning) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable car_move_cmd\x1b[0m\n'}
+[11.543819] (-) TimerEvent: {}
+[11.544859] (planning) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX static library libpnc_map_server.a\x1b[0m\n'}
+[11.552066] (planning) StdoutLine: {'line': b'[ 68%] Built target decision_center\n'}
+[11.566636] (planning) StdoutLine: {'line': b'[ 68%] Built target pnc_map_server\n'}
+[11.596223] (planning) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o\x1b[0m\n'}
+[11.597179] (planning) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o\x1b[0m\n'}
+[11.597759] (planning) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o\x1b[0m\n'}
+[11.598986] (planning) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o\x1b[0m\n'}
+[11.600164] (planning) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o\x1b[0m\n'}
+[11.605610] (planning) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable obs_move_cmd\x1b[0m\n'}
+[11.626887] (planning) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable global_path_server\x1b[0m\n'}
+[11.643963] (-) TimerEvent: {}
+[11.737762] (planning) StdoutLine: {'line': b'[ 88%] Built target car_move_cmd\n'}
+[11.744101] (-) TimerEvent: {}
+[11.804303] (planning) StdoutLine: {'line': b'[ 88%] Built target obs_move_cmd\n'}
+[11.808041] (planning) StdoutLine: {'line': b'[ 88%] Built target global_path_server\n'}
+[11.844249] (-) TimerEvent: {}
+[11.944683] (-) TimerEvent: {}
+[12.045133] (-) TimerEvent: {}
+[12.145622] (-) TimerEvent: {}
+[12.246185] (-) TimerEvent: {}
+[12.346864] (-) TimerEvent: {}
+[12.447333] (-) TimerEvent: {}
+[12.547832] (-) TimerEvent: {}
+[12.648342] (-) TimerEvent: {}
+[12.748920] (-) TimerEvent: {}
+[12.849384] (-) TimerEvent: {}
+[12.949905] (-) TimerEvent: {}
+[13.050413] (-) TimerEvent: {}
+[13.150862] (-) TimerEvent: {}
+[13.251281] (-) TimerEvent: {}
+[13.351722] (-) TimerEvent: {}
+[13.452144] (-) TimerEvent: {}
+[13.552604] (-) TimerEvent: {}
+[13.653016] (-) TimerEvent: {}
+[13.753461] (-) TimerEvent: {}
+[13.853924] (-) TimerEvent: {}
+[13.954340] (-) TimerEvent: {}
+[14.054766] (-) TimerEvent: {}
+[14.155165] (-) TimerEvent: {}
+[14.255573] (-) TimerEvent: {}
+[14.355984] (-) TimerEvent: {}
+[14.456434] (-) TimerEvent: {}
+[14.556894] (-) TimerEvent: {}
+[14.657341] (-) TimerEvent: {}
+[14.757803] (-) TimerEvent: {}
+[14.858249] (-) TimerEvent: {}
+[14.958696] (-) TimerEvent: {}
+[15.059126] (-) TimerEvent: {}
+[15.159560] (-) TimerEvent: {}
+[15.259948] (-) TimerEvent: {}
+[15.360312] (-) TimerEvent: {}
+[15.460683] (-) TimerEvent: {}
+[15.561052] (-) TimerEvent: {}
+[15.654930] (planning) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library liblocal_planner.so\x1b[0m\n'}
+[15.661197] (-) TimerEvent: {}
+[15.761584] (-) TimerEvent: {}
+[15.773651] (planning) StdoutLine: {'line': b'[ 91%] Built target local_planner\n'}
+[15.804766] (planning) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o\x1b[0m\n'}
+[15.806510] (planning) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o\x1b[0m\n'}
+[15.861703] (-) TimerEvent: {}
+[15.962027] (-) TimerEvent: {}
+[16.062334] (-) TimerEvent: {}
+[16.162678] (-) TimerEvent: {}
+[16.263035] (-) TimerEvent: {}
+[16.363397] (-) TimerEvent: {}
+[16.463787] (-) TimerEvent: {}
+[16.564153] (-) TimerEvent: {}
+[16.664532] (-) TimerEvent: {}
+[16.764892] (-) TimerEvent: {}
+[16.865240] (-) TimerEvent: {}
+[16.965594] (-) TimerEvent: {}
+[17.065953] (-) TimerEvent: {}
+[17.166300] (-) TimerEvent: {}
+[17.266679] (-) TimerEvent: {}
+[17.367051] (-) TimerEvent: {}
+[17.467409] (-) TimerEvent: {}
+[17.567776] (-) TimerEvent: {}
+[17.668126] (-) TimerEvent: {}
+[17.768480] (-) TimerEvent: {}
+[17.868820] (-) TimerEvent: {}
+[17.969166] (-) TimerEvent: {}
+[18.069563] (-) TimerEvent: {}
+[18.169911] (-) TimerEvent: {}
+[18.270250] (-) TimerEvent: {}
+[18.370606] (-) TimerEvent: {}
+[18.470955] (-) TimerEvent: {}
+[18.571338] (-) TimerEvent: {}
+[18.671750] (-) TimerEvent: {}
+[18.772103] (-) TimerEvent: {}
+[18.872461] (-) TimerEvent: {}
+[18.972858] (-) TimerEvent: {}
+[19.073220] (-) TimerEvent: {}
+[19.173573] (-) TimerEvent: {}
+[19.273891] (-) TimerEvent: {}
+[19.285384] (planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable planning_node\x1b[0m\n'}
+[19.374041] (-) TimerEvent: {}
+[19.428046] (planning) StdoutLine: {'line': b'[100%] Built target planning_node\n'}
+[19.434455] (planning) CommandEnded: {'returncode': 0}
+[19.435520] (planning) JobProgress: {'identifier': 'planning', 'progress': 'install'}
+[19.436613] (planning) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/zhangxin/planning_with_ROS2_course/build/planning'], 'cwd': '/home/zhangxin/planning_with_ROS2_course/build/planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zhangxin'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/home/zhangxin/planning_with_ROS2_course/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhangxin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/zhangxin'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1678'), ('BUNDLED_DEBUGPY_PATH', '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/zhangxin/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zhangxin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhangxin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/zhangxin/planning_with_ROS2_course/install'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhangxin/miniconda3/bin:/home/zhangxin/miniconda3/condabin:/opt/ros/humble/bin:/home/zhangxin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ZX:@/tmp/.ICE-unix/1643,unix/ZX:/tmp/.ICE-unix/1643'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f22a4b90_11ee_44d5_88d3_213c8f4018bd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zhangxin/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ddd370d6babbe112.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M9ONC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bd760dcdc4.sock'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zhangxin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('_CONDA_EXE', '/home/zhangxin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zhangxin/planning_with_ROS2_course/build/planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zhangxin/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/zhangxin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhangxin/planning_with_ROS2_course/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/zhangxin/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[19.438972] (planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.440016] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so\n'}
+[19.440520] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so" to ""\n'}
+[19.440943] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libmathlibs.so\n'}
+[19.441629] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libdecision_center.so\n'}
+[19.442073] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libdecision_center.so" to ""\n'}
+[19.442223] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libpnc_map_creator.a\n'}
+[19.442441] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/libpnc_map_server.a\n'}
+[19.443364] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libglobal_planner.so\n'}
+[19.443818] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libglobal_planner.so" to ""\n'}
+[19.444385] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/global_path_server\n'}
+[19.444877] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/global_path_server" to ""\n'}
+[19.445810] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so\n'}
+[19.446288] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so" to ""\n'}
+[19.446895] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libreference_line.so\n'}
+[19.447343] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libreference_line.so" to ""\n'}
+[19.447959] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so\n'}
+[19.448359] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so" to ""\n'}
+[19.448987] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/planning_node\n'}
+[19.449559] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/planning_node" to ""\n'}
+[19.450335] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd\n'}
+[19.450877] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd" to ""\n'}
+[19.451424] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/obs_move_cmd\n'}
+[19.452016] (planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/obs_move_cmd" to ""\n'}
+[19.452133] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/config\n'}
+[19.452243] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/config/planning_static_obs_config.yaml\n'}
+[19.452296] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/launch\n'}
+[19.452344] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf\n'}
+[19.452393] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/obs_car\n'}
+[19.452656] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/main_car\n'}
+[19.452757] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/rviz\n'}
+[19.452869] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning\n'}
+[19.452952] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning\n'}
+[19.453006] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh\n'}
+[19.453058] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv\n'}
+[19.453344] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh\n'}
+[19.453452] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv\n'}
+[19.453629] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash\n'}
+[19.453741] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh\n'}
+[19.453800] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh\n'}
+[19.453853] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv\n'}
+[19.454024] (planning) StdoutLine: {'line': b'-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.dsv\n'}
+[19.454224] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning\n'}
+[19.454303] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake\n'}
+[19.454363] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake\n'}
+[19.454451] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.xml\n'}
+[19.455686] (planning) CommandEnded: {'returncode': 0}
+[19.468974] (planning) JobEnded: {'identifier': 'planning', 'rc': 0}
+[19.469671] (-) EventReactorShutdown: {}

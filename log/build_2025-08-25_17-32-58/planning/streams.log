@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.046s] [100%] Built target planning_node
+[0.051s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.058s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --install /home/zhangxin/planning_with_ROS2_course/build/planning
+[0.059s] -- Install configuration: ""
+[0.060s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning_node
+[0.061s] -- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/config
+[0.061s] [31mCMake Error at cmake_install.cmake:91 (file):
+[0.061s]   file INSTALL cannot find
+[0.061s]   "/home/zhangxin/planning_with_ROS2_course/src/planning/lauch": No such file
+[0.061s]   or directory.
+[0.061s] 
+[0.061s] [0m
+[0.062s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/build/planning' returned '1': CMAKE_PREFIX_PATH=/home/zhangxin/planning_with_ROS2_course/install/base_msgs:/home/zhangxin/planning_with_ROS2_course/install/planning:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --install /home/zhangxin/planning_with_ROS2_course/build/planning

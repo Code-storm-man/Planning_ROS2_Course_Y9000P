@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpnc_map_creator.a CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_creator_straight.cpp.o CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_creator_sturn.cpp.o
+/usr/bin/ranlib libpnc_map_creator.a

@@ -1,0 +1,68 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70b790f503d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70b790f1bd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70b790f1bd90>>)
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.215s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'cmake' and name 'planning_process'
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.271s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/zhangxin/planning_with_ROS2_course/install
+[0.272s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'planning_process' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'planning_process' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/build/planning_process', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/planning_process', 'merge_install': False, 'path': '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process', 'symlink_install': False, 'test_result_base': None}
+[0.304s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process'
+[0.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/build/planning_process': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process -DCMAKE_INSTALL_PREFIX=/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/planning_process
+[0.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/build/planning_process' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process -DCMAKE_INSTALL_PREFIX=/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/planning_process
+[0.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.653s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.657s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.658s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.658s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.672s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.672s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/local_setup.ps1'
+[0.674s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/_local_setup_util_ps1.py'
+[0.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/setup.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/local_setup.sh'
+[0.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/_local_setup_util_sh.py'
+[0.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/setup.sh'
+[0.682s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/local_setup.bash'
+[0.683s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/setup.bash'
+[0.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/local_setup.zsh'
+[0.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhangxin/planning_with_ROS2_course/src/planning/src/planning_process/install/setup.zsh'

@@ -1,0 +1,79 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found base_msgs: 0.0.0 (/home/zhangxin/planning_with_ROS2_course/install/base_msgs/share/base_msgs/cmake)
+-- Configuring done (1.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/zhangxin/planning_with_ROS2_course/build/planning
+[ 17%] Built target config_reader
+[ 17%] Built target obs_move_cmd
+[ 17%] Built target car_move_cmd
+[ 25%] Built target planning_node
+[ 34%] Built target mathlibs
+[ 37%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o[0m
+[ 45%] Built target pnc_map_creator
+[ 57%] Built target reference_line
+[ 62%] Built target vehicle_info
+[ 68%] Built target pnc_map_server
+[ 74%] Built target decision_center
+[ 80%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o[0m
+[ 91%] [32m[1mLinking CXX shared library libglobal_planner.so[0m
+[ 91%] Built target global_planner
+[ 94%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o[0m
+[ 97%] [32m[1mLinking CXX shared library liblocal_planner.so[0m
+[ 97%] Built target local_planner
+[100%] [32m[1mLinking CXX executable global_path_server[0m
+[100%] Built target global_path_server
+-- Install configuration: ""
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libpnc_map_creator.a
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/libpnc_map_server.a
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libglobal_planner.so
+-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libglobal_planner.so" to ""
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/global_path_server
+-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/global_path_server" to ""
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so
+-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so" to ""
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libreference_line.so
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/planning_node
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/obs_move_cmd
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/config
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/launch
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/obs_car
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/main_car
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/rviz
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.xml

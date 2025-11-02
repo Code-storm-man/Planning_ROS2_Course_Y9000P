@@ -1,0 +1,12 @@
+[0.022s] Invoking command in '/home/zhangxin/planning_with_ROS2_course/build/base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/base_msgs -- -j16 -l16
+[0.244s] -- Configuring incomplete, errors occurred!
+[0.244s] [31mCMake Error at CMakeLists.txt:18 (if):
+[0.244s]   if given arguments:
+[0.244s] 
+[0.244s]     "POLCY" "CMP0148"
+[0.244s] 
+[0.245s]   Unknown arguments specified
+[0.245s] 
+[0.245s] [0m
+[0.245s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.249s] Invoked command in '/home/zhangxin/planning_with_ROS2_course/build/base_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangxin/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/zhangxin/planning_with_ROS2_course/build/base_msgs -- -j16 -l16

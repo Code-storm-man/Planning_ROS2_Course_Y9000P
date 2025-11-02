@@ -1,0 +1,33 @@
+[ 37%] Built target mathlibs
+[ 75%] Built target planning_node
+[ 87%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libconfig_reader.so[0m
+[100%] Built target config_reader
+-- Install configuration: ""
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so" to ""
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/libmathlibs.so" to ""
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/planning_node
+-- Set non-toolchain portion of runtime path of "/home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/planning_node" to ""
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/config
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/launch
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/obs_car
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/urdf/main_car
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/lib/planning/rviz
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+-- Installing: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+-- Up-to-date: /home/zhangxin/planning_with_ROS2_course/install/planning/share/planning/package.xml

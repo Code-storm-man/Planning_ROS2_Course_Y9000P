@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpnc_map_server.a CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o
+/usr/bin/ranlib libpnc_map_server.a

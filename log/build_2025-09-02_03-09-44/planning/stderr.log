@@ -1,0 +1,15 @@
+[31mCMake Error at src/vehicle_info/CMakeLists.txt:14 (add_library):
+  add_library cannot create target "reference_line" because another target
+  with the same name already exists.  The existing target is a static library
+  created in source directory
+  "/home/zhangxin/planning_with_ROS2_course/src/planning/src/reference_line".
+  See documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  src/vehicle_info/CMakeLists.txt:24 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:394：cmake_check_build_system] 错误 1

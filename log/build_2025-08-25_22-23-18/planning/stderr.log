@@ -1,0 +1,11 @@
+[31mCMake Error at src/common/CMakeLists.txt:48 (target_link_directories):
+  Cannot specify link directories for target "$(config_target)" which is not
+  built by this project.
+
+[0m
+[31mCMake Error at src/common/CMakeLists.txt:51 (target_link_directories):
+  Cannot specify link directories for target "$(config_target)" which is not
+  built by this project.
+
+[0m
+gmake: *** [Makefile:240：cmake_check_build_system] 错误 1

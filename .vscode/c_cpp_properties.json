@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "linux-gcc-x64",
+            "includePath": [
+                "/opt/ros/humble/include/**",  // ROS的位置 
+                "/usr/local/include/**",   // 三方库的位置
+                "${workspaceFolder}/**"
+                // "${workspaceFolder}/src/planning/src/global_planner"
+                // "${workspaceFolder}/src/planning/src/local_planner/local_path",
+                // "${workspaceFolder}/src/planning/src/local_planner/local_speeds"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -1,8 +1,8 @@
-# Install script for directory: /home/zhangxin/planning_with_ROS2_course/src/planning/src/pnc_map_creator
+# Install script for directory: /home/zx/planning_with_ROS2_course/src/planning/src/pnc_map_creator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zhangxin/planning_with_ROS2_course/install/planning")
+  set(CMAKE_INSTALL_PREFIX "/home/zx/planning_with_ROS2_course/install/planning")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,17 +40,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/src/pnc_map_creator/libpnc_map_creator.a")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/planning" TYPE STATIC_LIBRARY FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/src/pnc_map_creator/libpnc_map_server.a")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 

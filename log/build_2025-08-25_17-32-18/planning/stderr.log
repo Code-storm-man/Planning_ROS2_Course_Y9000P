@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:91 (file):
-  file INSTALL cannot find
-  "/home/zhangxin/planning_with_ROS2_course/src/planning/lauch": No such file
-  or directory.
-
-[0m

@@ -1,8 +1,8 @@
-# Install script for directory: /home/zhangxin/planning_with_ROS2_course/src/planning
+# Install script for directory: /home/zx/planning_with_ROS2_course/src/planning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zhangxin/planning_with_ROS2_course/install/planning")
+  set(CMAKE_INSTALL_PREFIX "/home/zx/planning_with_ROS2_course/install/planning")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,117 +42,53 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/common/cmake_install.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/zx/planning_with_ROS2_course/build/planning/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/decision_center/cmake_install.cmake")
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/pnc_map_creator/cmake_install.cmake")
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/decision_center/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/global_planner/cmake_install.cmake")
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/pnc_map_creator/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/local_planner/cmake_install.cmake")
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/global_planner/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/reference_line/cmake_install.cmake")
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/local_planner/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/vehicle_info/cmake_install.cmake")
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/reference_line/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/planning_process/cmake_install.cmake")
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/vehicle_info/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zhangxin/planning_with_ROS2_course/build/planning/src/move_cmd/cmake_install.cmake")
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/planning_process/cmake_install.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/planning" TYPE DIRECTORY FILES
-    "/home/zhangxin/planning_with_ROS2_course/src/planning/config"
-    "/home/zhangxin/planning_with_ROS2_course/src/planning/launch"
-    "/home/zhangxin/planning_with_ROS2_course/src/planning/urdf"
-    "/home/zhangxin/planning_with_ROS2_course/src/planning/rviz"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/planning")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/planning")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning/environment" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning/environment" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_index/share/ament_index/resource_index/packages/planning")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning/cmake" TYPE FILE FILES
-    "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_core/planningConfig.cmake"
-    "/home/zhangxin/planning_with_ROS2_course/build/planning/ament_cmake_core/planningConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/planning" TYPE FILE FILES "/home/zhangxin/planning_with_ROS2_course/src/planning/package.xml")
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/zx/planning_with_ROS2_course/build/planning/src/move_cmd/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -163,5 +99,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zhangxin/planning_with_ROS2_course/build/planning/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zx/planning_with_ROS2_course/build/planning/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

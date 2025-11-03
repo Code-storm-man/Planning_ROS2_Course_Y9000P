@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.22)
 project(planning)
 
 # 设置C/C++标准
@@ -90,3 +90,10 @@ install(DIRECTORY
 # endif()
 
 ament_package()
+
+# 安全安装可选目录
+install(
+  DIRECTORY launch/ config/ urdf/ rviz/
+  DESTINATION share/${PROJECT_NAME}/
+  OPTIONAL
+)

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zx/planning_with_ROS2_course/build/planning/src/move_cmd/car_move_cmd" "/home/zx/planning_with_ROS2_course/build/planning/src/move_cmd/obs_move_cmd" "TARGETS" "car_move_cmd" "obs_move_cmd" "DESTINATION" "lib/planning")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zx/planning_with_ROS2_course/build/planning/src/common/libconfig_reader.so" "/home/zx/planning_with_ROS2_course/build/planning/src/common/libmathlibs.so" "TARGETS" "config_reader" "mathlibs" "LIBRARY_DESTINATION" "lib")

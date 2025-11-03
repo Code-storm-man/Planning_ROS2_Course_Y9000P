@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zx/planning_with_ROS2_course/build/planning/src/decision_center/libdecision_center.so" "TARGETS" "decision_center" "LIBRARY_DESTINATION" "lib")

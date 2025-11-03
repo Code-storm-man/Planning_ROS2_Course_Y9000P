@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000721] (-) JobUnselected: {'identifier': 'base_msgs'}
+[0.000739] (-) JobUnselected: {'identifier': 'data_plot'}
+[0.000749] (planning) JobQueued: {'identifier': 'planning', 'dependencies': OrderedDict([('base_msgs', '/home/zx/planning_with_ROS2_course/install/base_msgs')])}
+[0.000758] (planning) JobStarted: {'identifier': 'planning'}
+[0.004042] (planning) JobProgress: {'identifier': 'planning', 'progress': 'cmake'}
+[0.004276] (planning) Command: {'cmd': ['/usr/bin/cmake', '/home/zx/planning_with_ROS2_course/src/planning', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/zx/planning_with_ROS2_course/install/planning'], 'cwd': '/home/zx/planning_with_ROS2_course/build/planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:2080/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zx'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:2080/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.8/lib64:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zx'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zx/planning_with_ROS2_course'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2106'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3a6e6ec1663ebd7d8490f1e6908bb4c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:2080/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zx'), ('ALL_PROXY', 'socks://127.0.0.1:2080/'), ('http_proxy', 'http://127.0.0.1:2080/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/cmake-3.29.6/bin:/usr/local/cuda-12.8/bin:/usr/local/cuda-12.8/bin:/usr/local/cuda-12.8/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zxY900P:@/tmp/.ICE-unix/2106,unix/zxY900P:/tmp/.ICE-unix/2106'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:2080/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8a0862e8_6f2c_4608_bbff_7e6c7735489b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7927a0cbf8.sock'), ('GNOME_TERMINAL_SERVICE', ':1.277'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zx/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zx/planning_with_ROS2_course/build/planning'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('FTP_PROXY', 'http://127.0.0.1:2080/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3a6e6ec1663ebd7d8490f1e6908bb4c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:2080/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zx/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble')]), 'shell': False}
+[0.037824] (planning) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.066868] (planning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.3.0\n'}
+[0.070900] (planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099960] (-) TimerEvent: {}
+[0.112888] (planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.116302] (planning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.116377] (planning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.116757] (planning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.118154] (planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.163151] (planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.167248] (planning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.167352] (planning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.167386] (planning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.168049] (planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200148] (-) TimerEvent: {}
+[0.239241] (planning) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.267098] (planning) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.278292] (planning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.295494] (planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.296576] (planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300096] (planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.300161] (-) TimerEvent: {}
+[0.306442] (planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.313863] (planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.330406] (planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.331178] (planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.380213] (planning) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.394101] (planning) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.400260] (-) TimerEvent: {}
+[0.416131] (planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.419479] (planning) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.459061] (planning) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.459182] (planning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.500361] (-) TimerEvent: {}
+[0.503591] (planning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.503703] (planning) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.525920] (planning) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.536577] (planning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.574127] (planning) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.587310] (planning) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.600424] (-) TimerEvent: {}
+[0.605961] (planning) StdoutLine: {'line': b'-- Found base_msgs: 0.0.0 (/home/zx/planning_with_ROS2_course/install/base_msgs/share/base_msgs/cmake)\n'}
+[0.653214] (planning) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.681306] (planning) StdoutLine: {'line': b'-- Generating done\n'}
+[0.690479] (planning) StdoutLine: {'line': b'-- Build files have been written to: /home/zx/planning_with_ROS2_course/build/planning\n'}
+[0.697622] (planning) CommandEnded: {'returncode': 0}
+[0.698868] (planning) JobProgress: {'identifier': 'planning', 'progress': 'build'}
+[0.698905] (planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zx/planning_with_ROS2_course/build/planning', '--', '-j24', '-l24'], 'cwd': '/home/zx/planning_with_ROS2_course/build/planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:2080/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zx'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:2080/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.8/lib64:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zx'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zx/planning_with_ROS2_course'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2106'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3a6e6ec1663ebd7d8490f1e6908bb4c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:2080/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zx'), ('ALL_PROXY', 'socks://127.0.0.1:2080/'), ('http_proxy', 'http://127.0.0.1:2080/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/cmake-3.29.6/bin:/usr/local/cuda-12.8/bin:/usr/local/cuda-12.8/bin:/usr/local/cuda-12.8/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zxY900P:@/tmp/.ICE-unix/2106,unix/zxY900P:/tmp/.ICE-unix/2106'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:2080/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8a0862e8_6f2c_4608_bbff_7e6c7735489b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7927a0cbf8.sock'), ('GNOME_TERMINAL_SERVICE', ':1.277'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zx/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zx/planning_with_ROS2_course/build/planning'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('FTP_PROXY', 'http://127.0.0.1:2080/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3a6e6ec1663ebd7d8490f1e6908bb4c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:2080/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zx/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble')]), 'shell': False}
+[0.700923] (-) TimerEvent: {}
+[0.730847] (planning) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o\x1b[0m\n'}
+[0.731366] (planning) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o\x1b[0m\n'}
+[0.731975] (planning) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o\x1b[0m\n'}
+[0.801115] (-) TimerEvent: {}
+[0.901583] (-) TimerEvent: {}
+[1.002094] (-) TimerEvent: {}
+[1.102902] (-) TimerEvent: {}
+[1.203464] (-) TimerEvent: {}
+[1.303969] (-) TimerEvent: {}
+[1.404463] (-) TimerEvent: {}
+[1.504787] (-) TimerEvent: {}
+[1.605155] (-) TimerEvent: {}
+[1.705408] (-) TimerEvent: {}
+[1.805738] (-) TimerEvent: {}
+[1.906037] (-) TimerEvent: {}
+[2.006293] (-) TimerEvent: {}
+[2.106560] (-) TimerEvent: {}
+[2.161032] (planning) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX shared library libconfig_reader.so\x1b[0m\n'}
+[2.206791] (-) TimerEvent: {}
+[2.219155] (planning) StdoutLine: {'line': b'[ 11%] Built target config_reader\n'}
+[2.230767] (planning) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_creator_straight.cpp.o\x1b[0m\n'}
+[2.230943] (planning) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_creator_sturn.cpp.o\x1b[0m\n'}
+[2.230989] (planning) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o\x1b[0m\n'}
+[2.307933] (-) TimerEvent: {}
+[2.392138] (planning) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libmathlibs.so\x1b[0m\n'}
+[2.408183] (-) TimerEvent: {}
+[2.479878] (planning) StdoutLine: {'line': b'[ 22%] Built target mathlibs\n'}
+[2.496951] (planning) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o\x1b[0m\n'}
+[2.497316] (planning) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o\x1b[0m\n'}
+[2.498159] (planning) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o\x1b[0m\n'}
+[2.498396] (planning) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o\x1b[0m\n'}
+[2.511028] (-) TimerEvent: {}
+[2.611345] (-) TimerEvent: {}
+[2.711706] (-) TimerEvent: {}
+[2.812073] (-) TimerEvent: {}
+[2.912478] (-) TimerEvent: {}
+[3.012876] (-) TimerEvent: {}
+[3.113240] (-) TimerEvent: {}
+[3.213611] (-) TimerEvent: {}
+[3.314002] (-) TimerEvent: {}
+[3.414387] (-) TimerEvent: {}
+[3.514786] (-) TimerEvent: {}
+[3.615181] (-) TimerEvent: {}
+[3.716943] (-) TimerEvent: {}
+[3.817223] (-) TimerEvent: {}
+[3.917504] (-) TimerEvent: {}
+[4.017801] (-) TimerEvent: {}
+[4.118293] (-) TimerEvent: {}
+[4.178155] (planning) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX static library libpnc_map_creator.a\x1b[0m\n'}
+[4.215994] (planning) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libglobal_planner.so\x1b[0m\n'}
+[4.218359] (-) TimerEvent: {}
+[4.249236] (planning) StdoutLine: {'line': b'[ 40%] Built target pnc_map_creator\n'}
+[4.264813] (planning) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o\x1b[0m\n'}
+[4.291757] (planning) StdoutLine: {'line': b'[ 42%] Built target global_planner\n'}
+[4.310431] (planning) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o\x1b[0m\n'}
+[4.318584] (-) TimerEvent: {}
+[4.418869] (-) TimerEvent: {}
+[4.483088] (planning) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_info.so\x1b[0m\n'}
+[4.519054] (-) TimerEvent: {}
+[4.573143] (planning) StdoutLine: {'line': b'[ 48%] Built target vehicle_info\n'}
+[4.590865] (planning) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o\x1b[0m\n'}
+[4.591520] (planning) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object src/move_cmd/CMakeFiles/car_move_cmd.dir/car_move_cmd.cpp.o\x1b[0m\n'}
+[4.591632] (planning) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o\x1b[0m\n'}
+[4.621940] (-) TimerEvent: {}
+[4.722226] (-) TimerEvent: {}
+[4.822510] (-) TimerEvent: {}
+[4.922806] (-) TimerEvent: {}
+[5.023097] (-) TimerEvent: {}
+[5.123391] (-) TimerEvent: {}
+[5.148809] (planning) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libreference_line.so\x1b[0m\n'}
+[5.223493] (-) TimerEvent: {}
+[5.244538] (planning) StdoutLine: {'line': b'[ 60%] Built target reference_line\n'}
+[5.323594] (-) TimerEvent: {}
+[5.423870] (-) TimerEvent: {}
+[5.524150] (-) TimerEvent: {}
+[5.624424] (-) TimerEvent: {}
+[5.725251] (-) TimerEvent: {}
+[5.825547] (-) TimerEvent: {}
+[5.925988] (-) TimerEvent: {}
+[6.026347] (-) TimerEvent: {}
+[6.126685] (-) TimerEvent: {}
+[6.220202] (planning) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX static library libpnc_map_server.a\x1b[0m\n'}
+[6.228684] (-) TimerEvent: {}
+[6.275053] (planning) StdoutLine: {'line': b'[ 62%] Built target pnc_map_server\n'}
+[6.303958] (planning) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable global_path_server\x1b[0m\n'}
+[6.328789] (-) TimerEvent: {}
+[6.383839] (planning) StdoutLine: {'line': b'[ 65%] Built target global_path_server\n'}
+[6.428992] (-) TimerEvent: {}
+[6.462726] (planning) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libdecision_center.so\x1b[0m\n'}
+[6.503181] (planning) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable obs_move_cmd\x1b[0m\n'}
+[6.526227] (planning) StdoutLine: {'line': b'[ 71%] Built target decision_center\n'}
+[6.529046] (-) TimerEvent: {}
+[6.540937] (planning) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o\x1b[0m\n'}
+[6.541084] (planning) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o\x1b[0m\n'}
+[6.541131] (planning) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o\x1b[0m\n'}
+[6.542160] (planning) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o\x1b[0m\n'}
+[6.542917] (planning) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o\x1b[0m\n'}
+[6.554845] (planning) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable car_move_cmd\x1b[0m\n'}
+[6.592299] (planning) StdoutLine: {'line': b'[ 88%] Built target obs_move_cmd\n'}
+[6.629130] (-) TimerEvent: {}
+[6.655365] (planning) StdoutLine: {'line': b'[ 88%] Built target car_move_cmd\n'}
+[6.729239] (-) TimerEvent: {}
+[6.829519] (-) TimerEvent: {}
+[6.929790] (-) TimerEvent: {}
+[7.030106] (-) TimerEvent: {}
+[7.130386] (-) TimerEvent: {}
+[7.230808] (-) TimerEvent: {}
+[7.334020] (-) TimerEvent: {}
+[7.434303] (-) TimerEvent: {}
+[7.534889] (-) TimerEvent: {}
+[7.635439] (-) TimerEvent: {}
+[7.736075] (-) TimerEvent: {}
+[7.836797] (-) TimerEvent: {}
+[7.937502] (-) TimerEvent: {}
+[8.037950] (-) TimerEvent: {}
+[8.138637] (-) TimerEvent: {}
+[8.239057] (-) TimerEvent: {}
+[8.339328] (-) TimerEvent: {}
+[8.439818] (-) TimerEvent: {}
+[8.540297] (-) TimerEvent: {}
+[8.640872] (-) TimerEvent: {}
+[8.692999] (planning) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library liblocal_planner.so\x1b[0m\n'}
+[8.740940] (-) TimerEvent: {}
+[8.747545] (planning) StdoutLine: {'line': b'[ 91%] Built target local_planner\n'}
+[8.758310] (planning) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o\x1b[0m\n'}
+[8.758399] (planning) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o\x1b[0m\n'}
+[8.841036] (-) TimerEvent: {}
+[8.941283] (-) TimerEvent: {}
+[9.041529] (-) TimerEvent: {}
+[9.141772] (-) TimerEvent: {}
+[9.242024] (-) TimerEvent: {}
+[9.342274] (-) TimerEvent: {}
+[9.442530] (-) TimerEvent: {}
+[9.542768] (-) TimerEvent: {}
+[9.643142] (-) TimerEvent: {}
+[9.743386] (-) TimerEvent: {}
+[9.843758] (-) TimerEvent: {}
+[9.944086] (-) TimerEvent: {}
+[10.044338] (-) TimerEvent: {}
+[10.144712] (-) TimerEvent: {}
+[10.244936] (-) TimerEvent: {}
+[10.345180] (-) TimerEvent: {}
+[10.445416] (-) TimerEvent: {}
+[10.545653] (-) TimerEvent: {}
+[10.569969] (planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable planning_node\x1b[0m\n'}
+[10.635072] (planning) StdoutLine: {'line': b'[100%] Built target planning_node\n'}
+[10.642557] (planning) CommandEnded: {'returncode': 0}
+[10.643658] (planning) JobProgress: {'identifier': 'planning', 'progress': 'install'}
+[10.645699] (-) TimerEvent: {}
+[10.648473] (planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zx/planning_with_ROS2_course/build/planning'], 'cwd': '/home/zx/planning_with_ROS2_course/build/planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:2080/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zx'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:2080/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.8/lib64:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zx'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zx/planning_with_ROS2_course'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2106'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3a6e6ec1663ebd7d8490f1e6908bb4c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:2080/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zx'), ('ALL_PROXY', 'socks://127.0.0.1:2080/'), ('http_proxy', 'http://127.0.0.1:2080/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/cmake-3.29.6/bin:/usr/local/cuda-12.8/bin:/usr/local/cuda-12.8/bin:/usr/local/cuda-12.8/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zxY900P:@/tmp/.ICE-unix/2106,unix/zxY900P:/tmp/.ICE-unix/2106'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:2080/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8a0862e8_6f2c_4608_bbff_7e6c7735489b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7927a0cbf8.sock'), ('GNOME_TERMINAL_SERVICE', ':1.277'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zx/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zx/planning_with_ROS2_course/build/planning'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('FTP_PROXY', 'http://127.0.0.1:2080/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3a6e6ec1663ebd7d8490f1e6908bb4c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:2080/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zx/planning_with_ROS2_course/install/base_msgs:/opt/ros/humble')]), 'shell': False}
+[10.651796] (planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.651991] (planning) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.652529] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so\n'}
+[10.656759] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libmathlibs.so\n'}
+[10.660924] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libdecision_center.so\n'}
+[10.665320] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning//libpnc_map_creator.a\n'}
+[10.669592] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/libpnc_map_server.a\n'}
+[10.673861] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libglobal_planner.so\n'}
+[10.678529] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/global_path_server\n'}
+[10.682698] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so\n'}
+[10.686229] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libreference_line.so\n'}
+[10.689950] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so\n'}
+[10.693596] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/planning_node\n'}
+[10.697212] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd\n'}
+[10.700836] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/obs_move_cmd\n'}
+[10.705091] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/config/planning_static_obs_config.yaml\n'}
+[10.709086] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/launch/dummy.launch.py\n'}
+[10.713346] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/urdf/empty.urdf\n'}
+[10.717396] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/rviz/dummy.rviz\n'}
+[10.722757] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning\n'}
+[10.727826] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning\n'}
+[10.732015] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh\n'}
+[10.736620] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv\n'}
+[10.740422] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh\n'}
+[10.744224] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv\n'}
+[10.745769] (-) TimerEvent: {}
+[10.747868] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash\n'}
+[10.751806] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh\n'}
+[10.755788] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh\n'}
+[10.759588] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv\n'}
+[10.763658] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/package.dsv\n'}
+[10.767121] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning\n'}
+[10.770775] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake\n'}
+[10.774579] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake\n'}
+[10.777935] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/package.xml\n'}
+[10.781700] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning//dummy.launch.py\n'}
+[10.785531] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning//planning_static_obs_config.yaml\n'}
+[10.789059] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning//empty.urdf\n'}
+[10.792868] (planning) StdoutLine: {'line': b'-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning//dummy.rviz\n'}
+[10.798036] (planning) CommandEnded: {'returncode': 0}
+[10.806146] (planning) JobEnded: {'identifier': 'planning', 'rc': 0}
+[10.806336] (-) EventReactorShutdown: {}

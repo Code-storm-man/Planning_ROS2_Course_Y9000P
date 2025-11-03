@@ -1,9 +1,0 @@
-[31mCMake Error at src/pnc_map_creator/CMakeLists.txt:46 (install):
-  install does not recognize sub-command TARGHTS
-
-[0m
-[31mCMake Error at src/pnc_map_creator/CMakeLists.txt:51 (install):
-  install does not recognize sub-command TARGHTS
-
-[0m
-gmake: *** [Makefile:352：cmake_check_build_system] 错误 1

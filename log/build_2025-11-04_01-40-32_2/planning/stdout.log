@@ -1,0 +1,125 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found base_msgs: 0.0.0 (/home/zx/planning_with_ROS2_course/install/base_msgs/share/base_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zx/planning_with_ROS2_course/build/planning
+[  2%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[  5%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o[0m
+[  8%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o[0m
+[ 11%] [32m[1mLinking CXX shared library libconfig_reader.so[0m
+[ 11%] Built target config_reader
+[ 17%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_creator_straight.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_creator_sturn.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o[0m
+[ 22%] [32m[1mLinking CXX shared library libmathlibs.so[0m
+[ 22%] Built target mathlibs
+[ 25%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o[0m
+[ 31%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o[0m
+[ 34%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o[0m
+[ 37%] [32m[1mLinking CXX static library libpnc_map_creator.a[0m
+[ 40%] [32m[1mLinking CXX shared library libglobal_planner.so[0m
+[ 40%] Built target pnc_map_creator
+[ 42%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o[0m
+[ 42%] Built target global_planner
+[ 45%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libvehicle_info.so[0m
+[ 48%] Built target vehicle_info
+[ 51%] [32mBuilding CXX object src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/move_cmd/CMakeFiles/car_move_cmd.dir/car_move_cmd.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libreference_line.so[0m
+[ 60%] Built target reference_line
+[ 62%] [32m[1mLinking CXX static library libpnc_map_server.a[0m
+[ 62%] Built target pnc_map_server
+[ 65%] [32m[1mLinking CXX executable global_path_server[0m
+[ 65%] Built target global_path_server
+[ 68%] [32m[1mLinking CXX shared library libdecision_center.so[0m
+[ 71%] [32m[1mLinking CXX executable obs_move_cmd[0m
+[ 71%] Built target decision_center
+[ 80%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable car_move_cmd[0m
+[ 88%] Built target obs_move_cmd
+[ 88%] Built target car_move_cmd
+[ 91%] [32m[1mLinking CXX shared library liblocal_planner.so[0m
+[ 91%] Built target local_planner
+[ 94%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o[0m
+[100%] [32m[1mLinking CXX executable planning_node[0m
+[100%] Built target planning_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning//libpnc_map_creator.a
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/libpnc_map_server.a
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libglobal_planner.so
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/global_path_server
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libreference_line.so
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/planning_node
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/obs_move_cmd
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/config/planning_static_obs_config.yaml
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/launch/dummy.launch.py
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/urdf/empty.urdf
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/lib/planning/rviz/dummy.rviz
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning/package.xml
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning//dummy.launch.py
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning//planning_static_obs_config.yaml
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning//empty.urdf
+-- Symlinking: /home/zx/planning_with_ROS2_course/install/planning/share/planning//dummy.rviz

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29.6)
+cmake_minimum_required(VERSION 3.22.1)
 project(decision_center) # 子级项目名
 
 # 设置依赖

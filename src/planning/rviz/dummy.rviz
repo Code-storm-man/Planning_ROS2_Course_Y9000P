@@ -1,0 +1,4 @@
+# Dummy RViz config
+Panels: []
+Visualization Manager:
+  Enabled Displays: []
